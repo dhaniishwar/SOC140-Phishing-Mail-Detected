@@ -89,3 +89,72 @@
 &nbsp;&nbsp;&nbsp;&nbsp; The playbook directs you to analyze the URL or attachment using third-party tools.
 <br>
 <br>
+
+<img width="593" height="384" alt="p-5" src="https://github.com/user-attachments/assets/b3a20041-df68-487b-81c2-da174f6a1035" />
+
+
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; To get the attachment URL for analysis, simply right-click the attachment and copy the link address. This gives you the full download URL without actually downloading or executing the file. You never want to click or open a suspicious attachment directly on your own machine.
+<br>
+<br>
+
+<img width="1280" height="597" alt="p-6" src="https://github.com/user-attachments/assets/44fda50b-98e3-43c1-986a-57276cf2d967" />
+
+
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; Here we submit the download URL associated with the attachment to VirusTotal.
+<br>
+<br>
+
+<img width="1280" height="648" alt="p-7" src="https://github.com/user-attachments/assets/93fe0934-4bf4-4693-ae95-0e61a067a99a" />
+
+
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; The results come back with 14 out of 92 vendors flagging it as malicious. This is more than enough to confirm the attachment is malicious.
+<br>
+<br>
+
+---
+***Check if Mail was Delivered:***
+
+<img width="598" height="279" alt="p-8" src="https://github.com/user-attachments/assets/1d7606ec-c99b-40f6-96b8-bb57b388cc28" />
+
+
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; We already know the answer from the very first step, the Device Action was Blacked. That means the email security system caught it and the email never landed in mark's inbox.
+<br>
+<br>
+
+---
+***Document:***
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; You want to document everything you found that could help detect related activity in the future.
+<br>
+<br>
+
+<img width="598" height="382" alt="p-9" src="https://github.com/user-attachments/assets/b4d1a6c9-5430-4733-bccb-be5556041b97" />
+
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; Add the Phishing URL and Attacker SMTP IP for future reference.
+<br>
+<br>
+
+<img width="595" height="372" alt="p-10" src="https://github.com/user-attachments/assets/cc987570-74fb-46e9-ba07-3d84109d8a8c" />
+
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; Write your analyst note to tell the full story clearly.
+<br>
+
+---
+
+<h3 align =center> Summary </h3>
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; Thiis was a confirmed True Positive phishing attempt that was successfully stopped by the security system. An email titled 'COVID19 Vaccine' was flagged as a phishing attempt and blocked by our security system. The email came from SMTP IP 189.162.189.159 and contained a malicious link. Because the system successfully blocked the email, it never reached the user, and no further action is needed. This case is closed as a True Positive
